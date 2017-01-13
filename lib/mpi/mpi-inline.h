@@ -30,7 +30,8 @@
 #define G10_MPI_INLINE_H
 
 #ifndef G10_MPI_INLINE_DECL
-#define G10_MPI_INLINE_DECL  extern inline
+/* RDD #define G10_MPI_INLINE_DECL  extern inline */
+#define G10_MPI_INLINE_DECL static inline
 #endif
 
 G10_MPI_INLINE_DECL mpi_limb_t
